@@ -1,0 +1,70 @@
+{
+  "_tur": "minimalist-animator",
+  "_surum": 1,
+  "_aciklama": "Minimalist Animatör ayarları. Kurulum bu dosyayı proje köküne ayarlar.json olarak yazar; kullanıcının değiştirmediği alanlar buradaki varsayılanlardan gelir.",
+
+  "marka": {
+    "ad": "Stüdyom",
+    "slogan": "",
+    "alt_slogan": "",
+    "logo": "",
+    "hesaplar": { "instagram": "", "youtube": "", "tiktok": "" }
+  },
+
+  "kullanici": {
+    "ad": "Kullanıcı"
+  },
+
+  "icerik": {
+    "dil": "tr",
+    "konu_alani": "genel kültür",
+    "ton": "tatlı, samimi, merak uyandıran",
+    "hedef_kitle": "",
+    "konusma_hizi_kar_sn": 16,
+    "platformlar": ["instagram", "youtube", "tiktok"]
+  },
+
+  "metinler": {
+    "cta_kapanis": "Kaydet, birine gönder",
+    "kaydet": "Kaydet",
+    "gonder": "Birine gönder",
+    "kaydir": "Kaydır",
+    "kaynak": "Kaynak"
+  },
+
+  "gorsel": {
+    "cizim_uslubu": "chibi; kalın koyu kahverengi kontur, düz renk ve yumuşak gölge, pembe yanaklar, sade arka plan",
+    "renkler": {
+      "DARK": [44, 22, 20],
+      "INK": [58, 34, 20],
+      "GOLD": [238, 178, 64],
+      "GOLD_D": [188, 126, 40],
+      "CREAM": [253, 245, 226],
+      "NAVY": [36, 52, 88],
+      "RED": [214, 62, 52],
+      "KAHVE": [130, 86, 44]
+    },
+    "font": {
+      "kalin_dar": "assets/fonts/BarlowCondensed-Bold.ttf",
+      "kalin_yari_dar": "assets/fonts/BarlowSemiCondensed-Bold.ttf",
+      "degisken_yol": "",
+      "varyasyon_kalin_dar": "Bold Condensed",
+      "varyasyon_kalin_yari_dar": "Bold SemiCondensed"
+    }
+  },
+
+  "araclar": {
+    "gorsel_araci": "gemini",
+    "ses_araci": "elevenlabs",
+    "indirilenler_klasoru": "~/Downloads",
+    "python": ""
+  },
+
+  "akis": {
+    "varsayilan_senaryo_modu": "ajan",
+    "gunluk_soru_siniri": 4,
+    "haftalik_plan": { "reels": 3, "gonderi": 1 },
+    "otomatik_dongu": false,
+    "kullanim_esigi_yuzde": 80
+  }
+}

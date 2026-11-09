@@ -1,0 +1,40 @@
+#!/bin/sh
+# Minimalist Animatör komut satırı: ma <arac> [argümanlar]   (liste: ma yardim)
+# Yorumlayıcı sırası: <proje kökü>/sirket/.python -> python3 -> python -> py -3 (her biri -c "import sys" ile sınanır).
+betik="$(dirname "$0")/../studyo/ma.py"
+
+dene() { "$@" -c "import sys" >/dev/null 2>&1; }
+
+kok_python() {
+  for k in "${MA_KOK:-}" "${CLAUDE_PROJECT_DIR:-}"; do
+    if [ -n "$k" ] && [ -f "$k/sirket/.python" ]; then
+      tr -d '\r' < "$k/sirket/.python" | head -n 1
+      return 0
+    fi
+  done
+  k="$(pwd)"
+  while :; do
+    if [ -f "$k/ayarlar.json" ] && [ -f "$k/sirket/.python" ]; then
+      tr -d '\r' < "$k/sirket/.python" | head -n 1
+      return 0
+    fi
+    u="$(dirname "$k")"
+    [ "$u" = "$k" ] && return 1
+    k="$u"
+  done
+}
+
+py="$(kok_python)"
+if [ -n "$py" ] && dene "$py"; then
+  exec "$py" "$betik" "$@"
+fi
+for aday in python3 python; do
+  if command -v "$aday" >/dev/null 2>&1 && dene "$aday"; then
+    exec "$aday" "$betik" "$@"
+  fi
+done
+if command -v py >/dev/null 2>&1 && dene py -3; then
+  exec py -3 "$betik" "$@"
+fi
+echo "ma: Python 3 bulunamadı. Python 3.10+ kurun ya da <proje kökü>/sirket/.python dosyasına yorumlayıcının yolunu yazın." >&2
+exit 127

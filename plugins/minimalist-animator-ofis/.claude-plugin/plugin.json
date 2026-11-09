@@ -1,0 +1,9 @@
+{
+  "name": "minimalist-animator-ofis",
+  "version": "0.1.0",
+  "description": "Minimalist Animatör Ofis paneli: ajanların durumu, son işleri, öğrendikleri, video ilerlemesi, kendi senaryonu verme ve ajanlarla Yönetici üzerinden konuşma",
+  "author": { "name": "YUSUF-CGRC", "url": "https://github.com/YUSUF-CGRC" },
+  "repository": "https://github.com/YUSUF-CGRC/minimalist-animator",
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}

@@ -1,0 +1,23 @@
+Minimalist Animatör
+
+Bu eklenti, Maziden (Instagram: @maziden.official) için kurulan bir içerik
+stüdyosundan genelleştirilerek açık kaynak yapıldı. Markaya ait görseller,
+karakterler, ürün fotoğrafları, sesler ve hesap verileri bu repoya dahil değildir.
+
+This plugin was generalized and open-sourced from a content studio built for
+Maziden (Instagram: @maziden.official). The brand's images, characters,
+product photos, voices and account data are not included in this repository.
+
+Üçüncü taraf bileşenler / Third-party components
+- Barlow Condensed, Barlow Semi Condensed — Copyright 2017 The Barlow Project
+  Authors (https://github.com/jpt/barlow), SIL Open Font License 1.1
+  (plugins/minimalist-animator/assets/fonts/OFL.txt).
+- Ses efektleri ve müzik kodla (numpy) sentezlenir; hazır ses dosyası içermez.
+  Sound effects and music are synthesized in code (numpy); no audio samples are bundled.
+
+Bir rica (zorunlu değil) / A kind request (not required)
+Bu eklentiyle ürettiğin videoları paylaşırken açıklamaya şöyle bir satır
+eklersen çok seviniriz:
+  "Benzer animasyonlar için: github.com/YUSUF-CGRC/minimalist-animator"
+If you share videos made with this plugin, we'd love a line like the one above
+in your description. It is a request, not a license condition.

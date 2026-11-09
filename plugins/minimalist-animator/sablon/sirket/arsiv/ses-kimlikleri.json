@@ -1,0 +1,4 @@
+{
+  "_aciklama": "Karakter ses kimlikleri. Bir karakter bir kez seslendirildiyse her videoda AYNI ses + AYNI ayarlar kullanılır; değiştirmek kritik karardır (Yönetici kullanıcıya sorar). Yeni karakter: ad, ses, kaynak, voice_id, model, ayarlar, dil, cikti, ton, ornekler alanlarıyla eklenir.",
+  "karakterler": {}
+}

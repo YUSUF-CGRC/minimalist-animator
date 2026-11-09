@@ -1,0 +1,73 @@
+{
+  "proje": "0000-00-00_demo",
+  "baslik": "Demo: Ay neden hep aynı yüzünü gösterir?",
+  "format": "monolog",
+  "hedef_sure_sn": 14,
+  "muzik": "merak",
+  "karakterler": [
+    {"id": "kasif", "ad": "Kaşif", "ses_kimligi": "taslak", "yeni_karakter": false}
+  ],
+  "varliklar": [
+    {"id": "kasif", "tur": "karakter", "aciklama": "Kaşif şapkalı chibi anlatıcı (hazirla.py çizer)", "varyantlar": ["acik", "kapali", "konusma"], "arsivde_var": false},
+    {"id": "ay", "tur": "nesne", "aciklama": "Gülümseyen, kraterli Ay (hazirla.py)", "arsivde_var": false},
+    {"id": "dunya", "tur": "nesne", "aciklama": "Mavi-yeşil Dünya (hazirla.py)", "arsivde_var": false},
+    {"id": "parsomen", "tur": "arka-plan", "aciklama": "Motorun varsayılan krem zemini", "arsivde_var": true, "dosya": "motor"}
+  ],
+  "satirlar": [
+    {
+      "no": 1, "konusan": "kasif",
+      "metin": "Ay neden hep aynı yüzünü gösterir?",
+      "altyazi": "Ay neden hep aynı yüzünü gösterir?",
+      "vurgu": ["aynı", "yüzünü"],
+      "ton": "meraklı, sır verir gibi",
+      "tahmini_sure": 2.1, "sonra_bosluk": 0.3,
+      "ekranda": [
+        {"ne": "karakter-giris", "kim": "kasif", "nasil": "kenardan-bak", "nereye": "orta"},
+        {"ne": "soru-isareti", "kim": "kasif", "zaman": "kelime:gösterir"},
+        {"ne": "efekt", "ses": "chirp", "zaman": "kelime:Ay", "seviye": 0.3}
+      ],
+      "kaynak": null
+    },
+    {
+      "no": 2, "konusan": "kasif",
+      "metin": "Çünkü Ay, Dünya'nın çevresinde dolanırken kendi çevresinde de döner.",
+      "altyazi": "Çünkü Ay, Dünya'nın çevresinde dolanırken kendi çevresinde de döner.",
+      "vurgu": ["dolanırken", "döner."],
+      "ton": "açıklayıcı, neşeli",
+      "tahmini_sure": 4.3, "sonra_bosluk": 0.3,
+      "ekranda": [
+        {"ne": "nesne", "kim": "ay", "nasil": "sagdan", "nereye": "sag", "kadar": 3},
+        {"ne": "nesne", "kim": "dunya", "nasil": "pop", "nereye": "sol-ust", "boy": 400, "zaman": "kelime:Dünya'nın", "kadar": 3},
+        {"ne": "etiket", "metin": "Dönme = Dolanma", "zaman": "kelime:döner"}
+      ],
+      "kaynak": "K1"
+    },
+    {
+      "no": 3, "konusan": "kasif",
+      "metin": "İkisi de yaklaşık yirmi yedi gün sürer.",
+      "altyazi": "İkisi de yaklaşık 27 gün sürer.",
+      "vurgu": ["27", "gün"],
+      "ton": "şaşırtıcı bir sır verir gibi",
+      "tahmini_sure": 2.4, "sonra_bosluk": 0.3,
+      "ekranda": [
+        {"ne": "buyuk-metin", "metin": "27 gün", "zaman": "kelime:27"},
+        {"ne": "efekt", "ses": "bell", "zaman": "son", "seviye": 0.3}
+      ],
+      "kaynak": "K1"
+    },
+    {
+      "no": 4, "konusan": "kasif",
+      "metin": "Bu yüzden hep aynı yüzünü görürüz!",
+      "altyazi": "Bu yüzden hep aynı yüzünü görürüz!",
+      "vurgu": ["aynı", "yüzünü"],
+      "ton": "sevinçli kapanış",
+      "tahmini_sure": 2.1, "sonra_bosluk": 0.3,
+      "ekranda": [
+        {"ne": "karakter-zipla", "kim": "kasif"},
+        {"ne": "parilti", "zaman": "kelime:görürüz"}
+      ],
+      "kaynak": "K1"
+    }
+  ],
+  "kapanis": {"karakter": "kasif"}
+}

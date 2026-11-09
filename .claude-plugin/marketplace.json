@@ -1,0 +1,19 @@
+{
+  "name": "minimalist-animator",
+  "owner": { "name": "YUSUF-CGRC", "url": "https://github.com/YUSUF-CGRC" },
+  "metadata": {
+    "description": "Minimalist Animatör: kısa dikey video ve gönderi üreten Claude ajan stüdyosu ve Ofis paneli."
+  },
+  "plugins": [
+    {
+      "name": "minimalist-animator",
+      "source": "./plugins/minimalist-animator",
+      "description": "Ajan ekibi, iş akışı, animasyon motoru ve araçlar (zorunlu)."
+    },
+    {
+      "name": "minimalist-animator-ofis",
+      "source": "./plugins/minimalist-animator-ofis",
+      "description": "Ofis paneli: ajanların durumu, video ilerlemesi ve ajanlarla konuşma (isteğe bağlı, Claude masaüstü uygulaması)."
+    }
+  ]
+}

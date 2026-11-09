@@ -1,0 +1,10 @@
+{
+  "name": "minimalist-animator",
+  "version": "0.1.0",
+  "description": "Minimalist Animatör: Claude ajanlarından oluşan bir içerik stüdyosu. Araştırır, senaryo yazar (ya da senin senaryonu sahneler), Gemini ile çizdirir, ElevenLabs ile seslendirir, Python ile dikey kısa video ve Instagram gönderisi üretir. Hiçbir şeyi kendi başına yayınlamaz.",
+  "author": { "name": "YUSUF-CGRC", "url": "https://github.com/YUSUF-CGRC" },
+  "homepage": "https://github.com/YUSUF-CGRC/minimalist-animator",
+  "repository": "https://github.com/YUSUF-CGRC/minimalist-animator",
+  "license": "MIT",
+  "keywords": ["animation", "shorts", "reels", "tiktok", "video", "agents", "türkçe"]
+}
